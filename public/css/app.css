@@ -9,8 +9,9 @@ body {
 }
 
 .wrapper {
-  height: 1300px;
+  height: 1250px;
 }
+
 .header {
   background-color: #d24545ad;
   height: 80px;
@@ -40,14 +41,15 @@ h3 {
   font-size: 25px;
 }
 
-.left-content {
+.choice-content {
   width: 50%;
-  color: #e38382;
 }
 
-.right-content {
-  width: 50%;
+.idea-text {
   color: #e38382;
+  text-decoration: none;
+  display: block;
+  margin-top: 30px;
 }
 
 .roulette {
@@ -99,13 +101,13 @@ h3 {
   height: 310px;
 }
 
-.idea-text {
-  padding-bottom: 170px;
-  margin-top: 30px;
-}
-
 .create-btn {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.idea-input {
+  margin-top: 30px;
+  padding-bottom: 150px;
 }
