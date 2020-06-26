@@ -20,6 +20,16 @@ h1 {
   padding-top: 20px;
 }
 
+h2 {
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  padding-top: 50px;
+}
+
 .choice-list {
   height: 50px;
   display: flex;
@@ -35,4 +45,14 @@ h1 {
 .right-content {
   width: 50%;
   color: #e38382;
+}
+
+.roulette {
+  height: 350px;
+  text-align: center;
+}
+
+.idea-section {
+  height: 350px;
+  text-align: center;
 }

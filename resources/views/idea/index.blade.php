@@ -15,7 +15,7 @@
 
   <div class="choice-list">
     <div class="left-content">
-      <p>アイディアのたね</p>
+      <p>ideaのたね</p>
     </div>
     <div class="right-content">
       <p>ideaリスト</p>
