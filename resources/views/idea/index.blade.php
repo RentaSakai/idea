@@ -40,7 +40,7 @@
         <h3>アイデアを作成する</h3>
         <div class="idea-form">
           {!! Form::open(['route' => 'idea.store']) !!}
-            {!! Form::text('text', '', ['class' => 'idea-input', 'placeholder' => 'アイデアを入力してね', 'size' => '40x50']) !!}
+            {!! Form::text('text', '', ['class' => 'idea-input', 'placeholder' => 'アイデアを入力してね', 'size' => '40x10']) !!}
             {!! Form::button('作成', ['class' => 'create-btn']) !!}
           {!! Form::close() !!}
         </div>
