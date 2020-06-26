@@ -8,6 +8,9 @@ body {
   sans-serif;
 }
 
+.wrapper {
+  height: 1300px;
+}
 .header {
   background-color: #d24545ad;
   height: 80px;
