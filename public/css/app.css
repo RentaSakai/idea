@@ -48,11 +48,62 @@ h3 {
 }
 
 .roulette {
-  height: 350px;
+  height: 600px;
   text-align: center;
+}
+
+.roulette-main {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #e38382;
+  height: 500px;
 }
 
 .idea-section {
   height: 350px;
   text-align: center;
+}
+
+.roulette-list {
+  height: 200px;
+}
+
+.roulette-list p {
+  padding-top: 100px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.roulette-list-bottom p {
+  padding-top: 50px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.symbol {
+  color: #fff;
+  font-size: 30px;
+}
+
+.idea-section {
+  width: 100%;
+}
+
+.idea-form {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #e38382;
+  height: 310px;
+}
+
+.idea-text {
+  width: 70%;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.create-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }

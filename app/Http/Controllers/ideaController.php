@@ -14,4 +14,9 @@ class ideaController extends Controller
     {
         return view('idea.index');
     }
+
+    public function store(Request $rquest)
+    {
+        return view('idea.index');
+    }
 }

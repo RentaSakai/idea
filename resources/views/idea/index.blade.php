@@ -24,18 +24,25 @@
 
   <div class="roulette">
     <h2>ルーレット</h2>
-    <div class="roulette-main"></div>
-    {{-- {!! Form::open() !!}
-    {!! Form::button('ルーレットスタート') !!}
-    {!! Form::close() !!} --}}
+    <div class="roulette-main">
+      <div class="roulette-list">
+        <p>高いもの</p>
+      </div>
+      <p class="symbol">×</p>
+      <div class="roulette-list-bottom">
+        <p>安いもの</p>
+      </div>
+    </div>
   </div>
 
   <div class="idea-section">
-    <h3>上の二つの情報からアイデアを作成する</h3>
-    {{-- {!! Form::open() !!}
-    {!! Form::text('idea_text') !!}
-    {!! Form::button('作成') !!}
-    {!! Form::close() !!} --}}
+    <h3>アイデアを作成する</h3>
+    <div class="idea-form">
+      {!! Form::open(['route' => 'idea.store']) !!}
+        {!! Form::text('text', '', ['class' => 'idea-text', 'placeholder' => 'アイデアを入力してね']) !!}
+        {!! Form::button('作成', ['class' => 'create-btn']) !!}
+      {!! Form::close() !!}
+    </div>
   </div>
 </body>
 </html>

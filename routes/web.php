@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect()->route('index');
+    return redirect()->route('idea.index');
 });
 
-Route::get('/', 'ideaController@index')->name('index');
+Route::get('/', 'ideaController@index')->name('idea.index');
+Route::get('/index', 'ideaController@store')->name('idea.store');
